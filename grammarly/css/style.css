@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 70px;
+    padding: 20px;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+}
+
+.links{
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    margin-left: 40px;
+    
+}
+
+.links a:hover{
+    color: green;
+    border-bottom: 3px solid green;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+
+.contact button{
+    border: 1px solid green;
+    background-color: green;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    width: 180px;
+}
+.contact{
+    position: relative;
+    left: 67%;
+    bottom: 75px;
+}
+
+.contact a:hover{
+    color: green;
+    border-bottom: 2px solid green;
+    border-radius: 20px;
+    border-left: 3px dotted orangered;
+}
+
+.contact button:hover{
+    background-color: rgb(7, 68, 7);
+}
+
+.detector{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.detector p{
+    font-size: 1.2rem;
+}
+
+.detector h1{
+    font-size: 2.2rem;
+}
+
+textarea{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    left: 10%;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: 0px solid white;
+    color: #1c1c1c;
+    padding: 2rem 1.5rem;
+    margin: .25rem;
+    border-radius: .5rem;
+}
+
+textarea:focus{
+    outline: none;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+main{
+    border: 1px solid gray;
+    width: 1007px;
+    height: 550px;
+    margin-left: 100px;
+}
+
+
+.section{
+    display: flex;
+    width: 900px;
+}
+
+
+.check button{
+    border: 1px solid green;
+    background-color: green;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+
+.check button:hover{
+    background-color: rgb(7, 68, 7);
+}
+
+.start{
+    position: relative;
+    left: 55px;
+    width: 700px;
+    height: 79%;
+}
+
+.get{
+    width: 340px;
+}
+
+.reputation{
+    position: relative;
+    right: 397px;
+    top: 300px;
+    border: 1px solid gray;
+    border-right: none;
+    height: 250px;
+
+}
+
+.every{
+    border: 1px solid gray;
+    width: 396px;
+    height: 500px;
+    margin-left: 55px;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.reputation button{
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    height: 30px;
+    border-radius: 10px;
+    width: 180px;
+    position: relative;
+    top: 120px;
+    left: px;
+}
+
+
+.response{
+    margin: 30px;
+    width: 332px;
+    height: 100px;
+}
+
+.response button:hover{
+    border: 3px solid green;
+}
+
+.footer{
+    border: 1px solid black;
+    background-color: black;
+    width: 1053px;
+    height: 50px;
+    margin-left: 100px;
+    color: WHITE;
+    
+}
+
+.footer .one{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.footer .one a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.footer .one a:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+}
+
